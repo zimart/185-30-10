@@ -49,6 +49,7 @@ const [user] = await findUserByEmail.run();
 
 if (user && await this.verifyHash(password, user?.password_hash)) {
 await storeValue('token', await this.createToken(user));
+await storeValue('uzytkownik',inp_email.text )
 await updateLogin.run({ id: user.id });
 showAlert('Zalogowano', 'success');
 navigateTo('Klienci', {}, 'SAME_WINDOW');

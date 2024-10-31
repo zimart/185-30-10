@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 11,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "ev3uj3k1h9",
-  "leftColumn": 9,
+  "leftColumn": 55,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -33,7 +33,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 4,
+  "originalBottomRow": 5,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 22.9912109375,
@@ -41,12 +41,12 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "Witaj: {{daneuzytkownik.data[0].first_name}} {{daneuzytkownik.data[0].last_name}} \n",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 0,
+  "topRow": 7,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
