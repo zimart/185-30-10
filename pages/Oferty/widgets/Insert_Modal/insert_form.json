@@ -280,6 +280,15 @@
     },
     {
       "key": "schema.__root_schema__.children.kurswgtabeli.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.sumakatalog.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.sumakatalog.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.sumakatalog.accentColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -317,7 +326,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{Insert_oferty.run().then(() => zapisznumeroferty.run()).then(() => tabela_id_klient.run()).then(() => closeModal(Insert_Modal.name));\n}}",
-  "originalBottomRow": 58,
+  "originalBottomRow": 27,
   "originalTopRow": 0,
   "parentColumnSpace": 16.3125,
   "parentId": "9rhv3ioohq",
@@ -617,6 +626,28 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "sumabrutto",
           "position": 17
+        },
+        "sumakatalog": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "sumakatalog",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sumakatalog))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "sumakatalog",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Sumakatalog",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "sumakatalog",
+          "position": 22,
+          "sourceData": null
         },
         "sumanetto": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",

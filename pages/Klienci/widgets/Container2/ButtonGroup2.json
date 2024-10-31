@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 11,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -17,6 +17,11 @@
       "key": "groupButtons.groupButton1.buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButton1.onClick"
@@ -26,6 +31,7 @@
     "groupButton1": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
+      "iconAlign": "left",
       "iconName": "user",
       "id": "groupButton1",
       "index": 0,
@@ -56,7 +62,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 8,
-  "topRow": 3,
+  "topRow": 7,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "ygv4jgz0lh",

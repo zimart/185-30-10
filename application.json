@@ -8,13 +8,13 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
+      "logoConfiguration": "logoOnly",
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": false
     },
     "themeSetting": {
@@ -139,13 +139,13 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
+      "logoConfiguration": "logoOnly",
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": false
     },
     "themeSetting": {
