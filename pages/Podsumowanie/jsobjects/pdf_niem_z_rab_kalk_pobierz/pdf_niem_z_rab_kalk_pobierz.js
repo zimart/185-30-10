@@ -89,7 +89,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "normal");
 	
 	
 	
-default_2 (doc, {
+default_1 (doc, {
 theme: 'grid',
 	headStyles: { 
 		fillColor:  [255, 255, 255] ,
@@ -157,7 +157,7 @@ const finalY1 = doc.lastAutoTable.finalY; // The y position where the table ends
 	
 	
 // Add a table with auto columns
-default_2(doc, {
+default_1(doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',
@@ -225,7 +225,7 @@ doc.addPage();
 //doc.text(textpdfdlugi.text, 15, finalY2 + 30);	
 	
 const finalY3 = doc.lastAutoTable.finalY; // The y position where the table ends		
-doc.text(textpdfdlugi.text, 15, finalY3 + 10);		
+doc.text(textpdfdlugi.text, 15, finalY2 + 10);		
 	
 
 	
