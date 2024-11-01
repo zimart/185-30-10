@@ -120,7 +120,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "bold");
 	
 	
 // Add a table with auto columns
-default_3(doc, {
+Ce(doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',
