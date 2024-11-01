@@ -9,20 +9,18 @@ const Roboto = Input1.text;
 
 // Custom headers
 const columns = [
-//{ header: 'Lp', dataKey: 'Lp' },
 { header: 'Produkt', dataKey: 'Produkt' },
-{ header: 'Menge', dataKey: 'Ilosc' },
+{ header: 'Ilość', dataKey: 'Ilosc' },
 { header: 'Netto', dataKey: 'cenanetto' } ,// Custom header with currency
-{ header: 'Rabatt %', dataKey: 'Rabatprocent' } ,// Custom header with currency
-{header: 'Rabattbetrag', dataKey: 'Rabat' } ,// Custom header with currency
-{ header: 'Netto nach Abzug', dataKey: 'nettopo' } ,// Custom header with currency
+{ header: 'Rabat %', dataKey: 'Rabatprocent' } ,// Custom header with currency
+{ header: 'Rabat', dataKey: 'Rabat' } ,// Custom header with currency
+{ header: 'Netto po rabacie', dataKey: 'nettopo' } ,// Custom header with currency
 //{ header: 'Opis', dataKey: 'Opis' }, // Custom header with currency
-{ header: 'Nettosumme', dataKey: 'razemnetto' }, // Custom header with currency
-{ header: 'Steuer %', dataKey: 'vat' }, // Custom header with currency
-{ header: 'Steuerbetrag', dataKey: 'vatkwota' }, // Custom header with currency
-{ header: 'Zu bezahlen', dataKey: 'Brutto' } // Custom header with currency
+{ header: 'Razem netto', dataKey: 'razemnetto' }, // Custom header with currency
+{ header: 'VAT %', dataKey: 'vat' }, // Custom header with currency
+{ header: 'VAT', dataKey: 'vatkwota' }, // Custom header with currency
+{ header: 'Brutto', dataKey: 'Brutto' } // Custom header with currency
 ];	
-	
 	
 	
 const columns2 = [
