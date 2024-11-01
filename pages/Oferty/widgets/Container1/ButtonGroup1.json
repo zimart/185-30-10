@@ -23,6 +23,9 @@
     },
     {
       "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonr58juedwfj.onClick"
     }
   ],
   "groupButtons": {
@@ -31,7 +34,7 @@
       "buttonType": "SIMPLE",
       "iconName": "add",
       "id": "groupButton1",
-      "index": 0,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "DODAJ OFERTĘ",
@@ -45,7 +48,7 @@
       "buttonType": "SIMPLE",
       "iconName": "refresh",
       "id": "groupButton2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "ODŚWIEŻ",
@@ -53,13 +56,30 @@
       "onClick": "{{tabela_id_klient.run()}}",
       "placement": "CENTER",
       "widgetId": ""
+    },
+    "groupButtonr58juedwfj": {
+      "buttonColor": "#dd4b34",
+      "buttonType": "SIMPLE",
+      "iconName": "user",
+      "id": "groupButtonr58juedwfj",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "KLIENCI",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Klienci', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "872wnfctvp"
     }
   },
   "isCanvas": false,
   "isLoading": false,
   "isVisible": true,
   "key": "8ne99aoj6j",
-  "leftColumn": 47,
+  "leftColumn": 40,
   "minWidth": 450,
   "mobileBottomRow": 5,
   "mobileLeftColumn": 25,
