@@ -89,7 +89,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "normal");
 	
 	
 	
-default_1 (doc, {
+__drawTable_1 (doc, {
 theme: 'grid',
 	headStyles: { 
 		fillColor:  [255, 255, 255] ,
