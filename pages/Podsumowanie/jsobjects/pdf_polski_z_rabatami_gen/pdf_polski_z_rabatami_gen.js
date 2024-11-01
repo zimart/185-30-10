@@ -1,5 +1,6 @@
 export default {
 async BuildPDF () {
+//await import('./jspdf-autotable');
 const doc = jspdf.jsPDF();
 const data2 = glowna_tabela.tableData;
 const Roboto = Input1.text;
@@ -101,7 +102,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "normal");
 	
 	
 // Add a table with auto columns
-default_3(doc, {
+CellHookData_3 (doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',
