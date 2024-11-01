@@ -87,7 +87,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "normal");
 //	   doc.text (ponizej.text, 15, 84);
 //	   doc.text (dziekujemy.text, 15, 80);
 	
-default_1(doc, {
+default_2(doc, {
 theme: 'grid',
 	headStyles: { 
 		fillColor:  [255, 255, 255] ,
@@ -155,7 +155,7 @@ const finalY1 = doc.lastAutoTable.finalY; // The y position where the table ends
 	
 	
 // Add a table with auto columns
-default_1 (doc, {
+default_2(doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',

@@ -28,7 +28,7 @@
   "color": "#C2DAF0",
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": true,
+    "showNavigationBar": false,
     "width": "1024px"
   },
   "evaluationVersion": 2,
